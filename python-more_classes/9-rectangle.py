@@ -9,6 +9,7 @@ class Rectangle:
     """
     number_of_instances = 0
     print_symbol = "#"
+
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
         Args:
@@ -54,7 +55,6 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return (0)
         return ((self.__width * 2) + (self.__height * 2))
-    
 
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
