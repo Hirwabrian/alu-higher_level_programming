@@ -2,9 +2,11 @@
 """Add all arguments to a Python list and save them to a file."""
 import sys
 
+
 if __name__ == "__main__":
-    from save_to_json_file import save_to_json_file
-    from load_from_json_file import load_from_json_file
+    save_to_json_file = __import__('7-save_to_json_file').save_to_json_file
+    load_from_json_file = \
+        __import__('8-load_from_json_file').load_from_json_file
 
     try:
         items = load_from_json_file("add_item.json")
