@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/bash
 """Add all arguments to a Python list and save them to a file."""
 import sys
 
