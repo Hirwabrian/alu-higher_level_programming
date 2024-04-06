@@ -13,7 +13,7 @@ Text is printed with two new lines after each of the characters ``.``, ``?``,
 and ``:``.
 
 ::
-
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
     >>> text_indentation("yo?")
     yo?
     <BLANKLINE>
