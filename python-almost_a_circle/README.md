@@ -1,0 +1,1 @@
+"In this endeavor, I leveraged my proficiency in Python's object-oriented programming paradigm by crafting a trio of interrelated classes to model rectangles and squares. To ensure robustness and accuracy, I developed a comprehensive test suite utilizing the `unittest` module, meticulously evaluating the functionality of each class."
