@@ -7,13 +7,12 @@ request(url, function (err, data, body) {
   } else {
     let counter = 0;
     const films = JSON.parse(body).results;
-    for (let result = 0; result < films.length; result++) {
-      const characters = films[result].characters;
-      for (let j = 0; j < characters.length; j++) {
-        if (characters.includes(`https://swapi-api.alx-tools.com/api/people/18) {
-          counter ++;
-        }
+    films.forEach(film => {
+      const characters = film.characters;
+      if (characters.includes(`https://swapi-api.alx-tools.com/api/people/18/`)) {
+        count++;
       }
+    });
     }
     console.log(counter);
   }
